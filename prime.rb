@@ -3,4 +3,5 @@ def prime?(n)
    array = *(2..n/2)
   n > 1 && range.none? do |i|
      n % i ==0
+   end
  end
